@@ -16,7 +16,7 @@ let timer = () => {
   };
 
   let updateTime = () => {
-    let getTime = getTmeRemining("20 september 2022");
+    let getTime = getTmeRemining("22 september 2022");
 
     timerHours.textContent = getTime.hours;
     timerMinutes.textContent = getTime.minutes;
